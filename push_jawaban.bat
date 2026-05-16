@@ -1,0 +1,19 @@
+@echo off
+cd /d "%~dp0"
+echo Menginisialisasi Git di folder %CD%...
+git init
+echo Menambahkan file...
+git add .
+echo Melakukan commit...
+git commit -m "Submit all lab answers and documentation"
+echo Menghubungkan ke repository baru...
+git remote add origin https://github.com/ahmadhelmiafandi/devops-capstone-project.git
+git remote set-url origin https://github.com/ahmadhelmiafandi/devops-capstone-project.git
+echo Mengatur branch ke main...
+git branch -M main
+echo Melakukan push ke GitHub...
+echo Pastikan Anda sudah login di terminal ini jika menggunakan HTTPS.
+git push -u origin main
+echo.
+echo Selesai! Silakan cek repository Anda.
+pause

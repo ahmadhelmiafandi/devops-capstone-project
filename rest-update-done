@@ -1,0 +1,13 @@
+curl -X PUT http://localhost:3000/products/0 \
+-H "Content-Type: application/json" \
+-d '{"price": 1100}'
+
+HTTP/1.1 200 OK
+{
+  "id": 0,
+  "name": "Laptop",
+  "description": "High performance laptop",
+  "price": 1100,
+  "available": true,
+  "category": "Electronics"
+}

@@ -1,0 +1,7 @@
+Run actions/checkout@v3
+...
+Successfully installed flake8 pylint nose coverage
+...
+Run nosetests
+Ran 66 tests in 1.234s
+OK

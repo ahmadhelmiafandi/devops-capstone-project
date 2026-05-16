@@ -1,0 +1,4 @@
+Name:                   accounts-deployment
+Replicas:               3 desired | 3 updated | 3 total | 3 available
+Image:                  product-management:latest
+...

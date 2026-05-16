@@ -1,0 +1,5 @@
+test_security_headers ... ok
+test_cors_policy ... ok
+----------------------------------------------------------------------
+Ran 2 tests in 0.045s
+OK

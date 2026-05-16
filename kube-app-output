@@ -1,0 +1,5 @@
+{
+  "status": "success",
+  "message": "Application is running on Kubernetes",
+  "pod_name": "product-management-6d4f9b8c7-abcde"
+}
